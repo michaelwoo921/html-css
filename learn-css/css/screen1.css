@@ -7,6 +7,33 @@ body {
     font-size: 87%;
 }
 
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* banner overlay*/
+.image-banner {
+    position: relative;
+    
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFF;
+    padding: 15px 25px;
+   
+
+}
+
 
 .container {
     max-width: 940px;
@@ -85,6 +112,7 @@ header p {
     padding: 20px 40px;
     box-sizing: border-box;
     font-size: 85%;
+ 
 }
 
 footer {
