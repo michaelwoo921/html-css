@@ -20,7 +20,7 @@ body {
 
 header {
     padding-top: 20px;
-    padding-bottom: 20px;
+
     color: rgb(98, 151, 98);
 }
 
@@ -33,6 +33,36 @@ header h1 {
 header p {
     margin: 0;
 }
+
+/* navigation start */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+}
+
+.site-nav a {
+    display: block;
+    color: rgb(98, 151, 98);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(188, 207, 179);
+    border-bottom: none;
+    margin-right: 5px;
+}
+
+.site-nav a:hover {
+    background-color: rgb(188, 207, 179);
+}
+/* navigation end */
 
 .content-area {
     border-top: 3px solid rgb(188, 207, 179);
